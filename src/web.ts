@@ -217,9 +217,9 @@ export class FirebaseAnalyticsWeb extends WebPlugin
   /**
    * Returns analytics reference object
    */
-  get remoteConfig() {
-    return this.analyticsRef;
-  }
+  // get remoteConfig() {
+  //   return this.analyticsRef;
+  // }
 
   enable(): Promise<void> {
     return new Promise(async (resolve, reject) => {
